@@ -23,19 +23,13 @@
   top: 50px;
   bottom: 50px;
   right: 50px;
-}
-
-.rightBackground {
-  background-color: rgb(96, 115, 96);
-  position: absolute;
-  width: 61.8%;
-  top: 50px;
-  bottom: 50px;
-  right: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
+
+
 
 .selected {
   margin-left: 30px;

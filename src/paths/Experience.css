@@ -1,0 +1,19 @@
+.experiencePage {
+  position: absolute;
+  top: 40px;
+  width: 86%;
+}
+
+.horizontalLine {
+  width: 100%;
+  border: 1px solid white;
+  margin: 10px -20px;
+}
+
+ul {
+  margin: 0px;
+}
+
+.details {
+  width: 90%;
+}

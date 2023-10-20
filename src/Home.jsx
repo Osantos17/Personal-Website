@@ -34,7 +34,7 @@ export function Home () {
 `;
 
   const ExperienceContent = styled.div`
-  height: 74vh;
+  height: 20vh;
   width: 100%;
   overflow-y: scroll;
   `;

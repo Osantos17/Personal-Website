@@ -1,0 +1,135 @@
+.homeBackground {
+  background-color: rgb(20, 27, 18);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.leftBackground {
+  background-color: rgb(42, 55, 38);
+  position: absolute;
+  width: 38.2%;
+  top: 50px;
+  bottom: 50px;
+  left: 50px;
+}
+
+.rightBackground {
+  background-color: rgb(96, 115, 96);
+  position: absolute;
+  width: 61.8%;
+  top: 50px;
+  bottom: 50px;
+  right: 50px;
+}
+
+.rightBackground {
+  background-color: rgb(96, 115, 96);
+  position: absolute;
+  width: 61.8%;
+  top: 50px;
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected {
+  margin-left: 30px;
+}
+
+.index {
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.index span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.index span:before,
+.index span:after {
+  content: '[';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0px;
+  transition: 0.5s;
+}
+
+.index span:after {
+  content: ']';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -144px;
+  transition: 0.5s;
+}
+
+.capstone span:after {
+  right: -248px;
+}
+
+.experience span:after {
+  right: -120px;
+}
+
+.skills span:after {
+  right: -110px;
+}
+
+.index:hover span {
+  padding-left: 15px;
+}
+
+.email {
+  font-size: 14px;
+}
+
+.email span:after {
+  content: ' copy ]';
+  right: -320px;
+}
+
+.index:hover span:before,
+.index:hover span:after {
+  opacity: 1;
+}
+
+p {
+  margin-left: 20px;
+  width: 500px;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.index {
+  margin: 10px 0px;
+  color: white;
+  border: none;
+  background-color: none;
+}
+
+.email {
+  position: absolute;
+  margin-left: 30px;
+  bottom: 10px;
+  color: white;
+}

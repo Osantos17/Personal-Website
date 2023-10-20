@@ -3,7 +3,7 @@ import { Home } from "./Home.jsx"
 
 export function Content() {
   return (
-    <div>
+    <div >
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

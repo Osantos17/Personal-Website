@@ -8,7 +8,7 @@ export function AboutMe () {
       <img className="profilePic" src="src/assets/Profile-white.jpg" alt="profile pic" />
     </div>
     <div className="written">
-      <h6>[ CODED WITH ]</h6>
+      <h6>[ BUILT WITH ]</h6>
     </div>
     <div className="codeLogos">
       <div className="grid text-center">
@@ -17,6 +17,7 @@ export function AboutMe () {
         <img className="logo react" src='src/assets/react.svg' alt="react" />
         <img className="logo" src='src/assets/css.svg' alt="css" />
         <img className="logo" src='src/assets/bootstrap.png' alt="bootstrap" />
+        <img className="logo" src='src/assets/photoshop.svg' alt="photoshop" />
       </div>
     </div>
       <h2 className="name">ORLANDO S.</h2>

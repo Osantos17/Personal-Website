@@ -89,6 +89,10 @@
   right: -110px;
 }
 
+.experience span:after {
+  right: -155px;
+}
+
 .index:hover span {
   padding-left: 15px;
 }

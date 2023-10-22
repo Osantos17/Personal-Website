@@ -1,0 +1,40 @@
+.containerWood {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+.containerArch {
+  position: absolute;
+  bottom: 280px;
+  left: 80px;
+}
+
+.containerSketch {
+  position: absolute;
+  bottom: 20px;
+  left: 80px;
+}
+
+.images {
+  max-width: 300px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  margin: 0 10px;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgCategory {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  left: -66px;
+  font-size: 16px;
+  color: white;
+  letter-spacing: -2px;
+}

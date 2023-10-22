@@ -21,7 +21,7 @@ export function AboutMe () {
       </div>
     </div>
       <h2 className="name">ORLANDO S.</h2>
-      <h3 className="titles">DESIGNER / WOODWORKER / DEVELOPER</h3>
+      <h3 className="titles">DESIGNER / DEVELOPER / WOODWORKER</h3>
   </div>
   )
 }

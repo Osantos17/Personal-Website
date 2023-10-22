@@ -54,11 +54,11 @@ export function Interests() {
         <h3 className="imgCategory">SKETCHES</h3>
         <SketchContent>
           <div className="imagesContainer">
-            <img className="images" src="./src/assets/Wood/crib.jpg" alt="crib" />
-            <img className="images" src="./src/assets/Wood/fire.jpg" alt="fire" />
-            <img className="images" src="./src/assets/Wood/wine.jpg" alt="wine" />
-            <img className="images" src="./src/assets/Wood/coop.jpg" alt="coop" />
-            <img className="images" src="./src/assets/Wood/table.jpg" alt="table" />
+            <img className="images" src="./src/assets/Sketches/bowl.jpeg" alt="bowl" />
+            <img className="images" src="./src/assets/Sketches/vase.jpeg" alt="vase" />
+            <img className="images" src="./src/assets/Sketches/wine.jpg" alt="wine" />
+            <img className="images" src="./src/assets/Sketches/coop.jpg" alt="coop" />
+            <img className="images" src="./src/assets/Sketches/table.jpg" alt="table" />
           </div>
         </SketchContent>
       </div>  

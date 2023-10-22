@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(../public/Lato/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Thin';
+  src: local('Lato Thin'), local('Lato-Thin'), url(../public/Lato/Lato-Thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: local('Lato Regular'), local('Lato-Regular'), url(../public/Lato/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: local('Lato Light'), local('Lato-Light'), url(../public/Lato/Lato-Light.ttf) format('truetype');
+}
+
+
 .homeBackground {
   background-color: rgb(20, 27, 18);
   position: absolute;
@@ -29,9 +50,8 @@
   overflow: hidden;
 }
 
-
-
 .selected {
+  font-family: 'Lato-Regular', sans-serif;
   margin-left: 30px;
 }
 
@@ -112,10 +132,11 @@
 }
 
 p {
+  font-family: 'Lato-Light', sans-serif;
   margin-left: 20px;
   width: 500px;
   color: white;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .index {
@@ -129,5 +150,9 @@ p {
   position: absolute;
   margin-left: 30px;
   bottom: 10px;
+  color: white;
+}
+
+h6 {
   color: white;
 }

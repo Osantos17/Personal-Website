@@ -4,10 +4,10 @@
   width: auto;
   height: auto;
   margin-bottom: 60px;
-
 }
 
 .name {
+  font-family: 'Lato-Regular', sans-serif;
   position: absolute;
   height: 500px;
   width: auto;
@@ -17,6 +17,7 @@
 }
 
 .titles {
+  font-family: 'Lato-Light', sans-serif;
   position: absolute;
   width: auto;
   bottom: 220px;
@@ -25,6 +26,7 @@
 }
 
 .written {
+  font-family: 'Lato-Light', sans-serif;
   position: absolute;
   bottom: 105px;
   color: white;

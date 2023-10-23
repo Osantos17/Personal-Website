@@ -4,6 +4,11 @@
   left: 80px;
 }
 
+.woodDescription {
+  position: absolute;
+  top: 5px;
+}
+
 .containerArch {
   position: absolute;
   bottom: 280px;

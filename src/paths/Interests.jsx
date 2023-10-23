@@ -16,7 +16,7 @@ export function Interests() {
 
   const SketchContent = styled.div`
   height: 25vh;
-  width: 80%;
+  width: 105vh;
   overflow-x: auto;
   `;
 
@@ -34,7 +34,6 @@ export function Interests() {
             <img className="images" src="./src/assets/Wood/changing.jpg" alt="changing" />
             <img className="images" src="./src/assets/Wood/shelf.jpg" alt="shelf" />
             <img className="images" src="./src/assets/Wood/stool.jpg" alt="stool" />
-            
           </div>
         </WoodContent>
       </div>
@@ -42,9 +41,12 @@ export function Interests() {
         <h3 className="imgCategory">ARCHITECTURE</h3>
         <ArchContent>
           <div className="imagesContainer">
+            <img className="images" src="./src/assets/Architecture/1150.png" alt="1150" />
+            <img className="images" src="./src/assets/Architecture/851.png" alt="851" />
+            <img className="images" src="./src/assets/Architecture/harbor.png" alt="harbor" />
+            <img className="images" src="./src/assets/Architecture/skyline.png" alt="skyline" />
             <img className="images" src="./src/assets/Architecture/ishinomaki.png" alt="ishinomaki" />
             <img className="images" src="./src/assets/Architecture/hayward.jpg" alt="hayward" />
-            <img className="images" src="./src/assets/Architecture/bayhouse.png" alt="bayhouse" />
             <img className="images" src="./src/assets/Architecture/hinto.png" alt="hinto" />
             <img className="images" src="./src/assets/Architecture/collage.png" alt="collage" />
           </div>
@@ -55,10 +57,11 @@ export function Interests() {
         <SketchContent>
           <div className="imagesContainer">
             <img className="images" src="./src/assets/Sketches/bowl.jpeg" alt="bowl" />
+            <img className="images" src="./src/assets/Sketches/invite.jpg" alt="invite" />
             <img className="images" src="./src/assets/Sketches/vase.jpeg" alt="vase" />
-            <img className="images" src="./src/assets/Sketches/wine.jpg" alt="wine" />
-            <img className="images" src="./src/assets/Sketches/coop.jpg" alt="coop" />
-            <img className="images" src="./src/assets/Sketches/table.jpg" alt="table" />
+            <img className="images" src="./src/assets/Sketches/plant.jpg" alt="plant" />
+            <img className="images" src="./src/assets/Sketches/wave.jpg" alt="wave" />
+            <img className="images" src="./src/assets/Sketches/bayhouse.png" alt="bayhouse" />
           </div>
         </SketchContent>
       </div>  

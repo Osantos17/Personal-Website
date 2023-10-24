@@ -24,6 +24,11 @@
   src: local('Lato Black'), local('Lato-Black'), url(../public/Lato/Lato-Black.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Lato-Bold';
+  src: local('Lato Bold'), local('Lato-Bold'), url(../public/Lato/Lato-Bold.ttf) format('truetype');
+}
+
 
 .homeBackground {
   background-color: rgb(20, 27, 18);
@@ -61,6 +66,7 @@
   margin-left: 0px;
   background-color: rgba(0, 0, 0, 0.21);
   padding-left: 20px;
+  width: 100%;
 }
 
 .index {
@@ -140,10 +146,6 @@
   margin-left: 20px;
 }
 
-.email {
-  font-size: 14px;
-}
-
 .email span:after {
   content: ' copy ]';
   right: -320px;
@@ -169,15 +171,16 @@ p {
   background-color: none;
 }
 
-.email {
-  position: absolute;
-  margin-left: 30px;
-  bottom: 10px;
+h6 {
+  font-size: 16px;
   color: white;
 }
 
-h6 {
-  font-size: 16px;
+.email {
+  font-size: 14px;
+  position: absolute;
+  margin-left: 30px;
+  bottom: 10px;
   color: white;
 }
 
@@ -187,6 +190,27 @@ h6 {
   width: auto;
   height: auto;
   position: absolute;
-  right: 120px;
-  bottom: 10px;
+  right: 130px;
+  bottom: 20px;
+}
+
+.git:hover {
+  max-width: 70px;
+  max-height: 70px;
+  width: auto;
+  height: auto;
+}
+
+.copiedAlert {
+  position: relative;
+  top: 450px;
+  left: 280px;
+  background-color: rgba(20, 27, 18, 0.7);
+  color: white;
+  font-family: 'Lato-Regular', sans-serif;
+  padding: 10px 20px;
+  width: 80px;
+  text-align: center;
+  z-index: 1;
+  font-size: 12px;
 }

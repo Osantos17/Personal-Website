@@ -9,6 +9,8 @@ import { Projects } from "./paths/Projects.jsx"
 
 export function Home () {
 
+  const [ showCopyMessage, setShowCopyMessage ] = useState(false);
+
   const [ clickControl, setClickControl ] = useState ({
     aboutMe: true,
     projects: false,
@@ -25,6 +27,11 @@ export function Home () {
 
   const copyText = () => { 
     navigator.clipboard.writeText ("Santos.Orlando17@gmail.com"); 
+    setShowCopyMessage(true);
+
+    setTimeout (() => {
+      setShowCopyMessage(false);
+    }, 1000)
   }; 
 
   const AboutMeContent = styled.div`
@@ -88,6 +95,9 @@ export function Home () {
             </div>
           </div>
           <button onClick= {copyText} className="email index"><span>SANTOS.ORLANDO17@GMAIL.COM</span></button>
+          {showCopyMessage && (
+          <div className="copiedAlert">Copied!</div>
+          )}
           <a href='https://github.com/Osantos17'><img className="git" src="./src/assets/git.png"></img></a>
         </div>
         <div className='rightContent'>

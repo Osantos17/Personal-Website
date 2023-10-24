@@ -94,7 +94,6 @@
   margin-bottom: 20px;
 }
 
-
 .index span {
   cursor: pointer;
   display: inline-block;
@@ -121,7 +120,6 @@
   transition: 0.5s;
 }
 
-
 .capstone span:after {
   right: -248px;
 }
@@ -144,11 +142,6 @@
 
 .detailBody {
   margin-left: 20px;
-}
-
-.email span:after {
-  content: ' copy ]';
-  right: -320px;
 }
 
 .index:hover span:before,
@@ -176,36 +169,95 @@ h6 {
   color: white;
 }
 
-.email {
-  font-size: 14px;
+.myLinks {
+  margin-left: 15px;
   position: absolute;
-  margin-left: 30px;
-  bottom: 10px;
+  bottom: 20px;
   color: white;
+  font-family: 'Lato-Light', sans-serif;
+  font-size: 16px;
+}
+
+.mySites {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.email {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  text-align: inherit;
+  border-radius: 0;
+  appearance: none;
 }
 
 .git {
-  max-width: 50px;
-  max-height: 50px;
-  width: auto;
-  height: auto;
-  position: absolute;
-  right: 130px;
-  bottom: 20px;
+  margin-left: 30px;
+  max-width: 42px;
+  max-height: 42px;
+  transition: max-width 0.5s, max-height 0.5s;
 }
 
 .git:hover {
-  max-width: 70px;
-  max-height: 70px;
-  width: auto;
-  height: auto;
+  max-width: 50px;
+  max-height: 50px;
+  transition: 0.5s;
+}
+
+
+.gmailIcon {
+  max-width: 45px;
+  max-height: 45px;
+  margin-left: 10px;
+  transition: max-width 0.5s, max-height 0.5s;
+}
+
+.gmailIcon:hover {
+  max-width: 50px;
+  max-height: 50px;
+  opacity: 70%;
+  transition: 0.5s;
+}
+
+.gmail:before {
+  position: absolute;
+  opacity: 0;
+  bottom: 55px;
+  left: 230px;
+  transition: 0.5s;
+  content: 'click to copy';
+  font-size: 14px;
+  width: 100px;
+  z-index: 1;
+}
+
+.gmail:hover:before,
+.gmail:hover:after {
+  opacity: 1;
+}
+
+.link {
+  max-width: 40px;
+  max-height: 40px;
+  transition: max-width 0.5s, max-height 0.5s;
+}
+
+.link:hover {
+  max-width: 45px;
+  max-height: 45px;
+  transition: 0.5s;
+}
+
+.connection {
+  margin-right: 60px;
 }
 
 .copiedAlert {
-  position: relative;
-  top: 450px;
-  left: 280px;
-  background-color: rgba(20, 27, 18, 0.7);
+  position: absolute;
+  bottom: 50px;
+  left: 225px;
+  background-color: rgb(20, 27, 18);
   color: white;
   font-family: 'Lato-Regular', sans-serif;
   padding: 10px 20px;

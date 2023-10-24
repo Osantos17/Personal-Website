@@ -94,11 +94,15 @@ export function Home () {
               </div> )}
             </div>
           </div>
-          <button onClick= {copyText} className="email index"><span>SANTOS.ORLANDO17@GMAIL.COM</span></button>
-          {showCopyMessage && (
-          <div className="copiedAlert">Copied!</div>
-          )}
-          <a href='https://github.com/Osantos17'><img className="git" src="./src/assets/git.png"></img></a>
+          <div className="myLinks">
+            <h5 className="row mySites">MY SITES</h5>
+            <a href='https://github.com/Osantos17'><img className="connection git col" src="./src/assets/git.png" alt="GitHub" /></a>
+            <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link col" src="./src/assets/linkedin.png" alt="LinkedIn" /></a>
+            <span className="gmail col" onClick={copyText}><img className ="gmailIcon" src="./src/assets/gmail.png" alt="Gmail" /></span>
+            {showCopyMessage && (
+              <div className="copiedAlert">Copied!</div>
+            )}
+          </div>
         </div>
         <div className='rightContent'>
           {clickControl.aboutMe && (

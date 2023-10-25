@@ -90,7 +90,7 @@ export function Home () {
                 <h6>ARCHITECTURE</h6>
                 <p> My experience in architecture significantly honed my design skills, instilling spatial awareness and the art of crafting functional, aesthetically pleasing spaces. Similarly, software development requires the creation of logical and user-friendly digital interfaces. In both domains, professionals must engage in critical thinking to translate ideas into well-thought-out solutions. The synergy between meticulous architectural planning and software development yields intuitively designed spaces, whether in the physical or virtual realm.
                 </p>
-                <p> All the architecture images featured represent projects in which I played an integral role. For the renderings, I constructed the models in Revit, subsequently rendered in 3DMax by the graphics department.</p>
+                <p> All the architecture images featured represent projects in which I played an integral role. For allt the renderings, I modeled the buildings in a 3D program. I would then collaborate with our graphics team produce renderings the models for our clients.</p>
               </div> )}
             </div>
           </div>

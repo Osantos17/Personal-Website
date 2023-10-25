@@ -48,7 +48,6 @@ export function Interests() {
             <img className="images" src="./src/assets/Architecture/ishinomaki.png" alt="ishinomaki" />
             <img className="images" src="./src/assets/Architecture/hayward.jpg" alt="hayward" />
             <img className="images" src="./src/assets/Architecture/hinto.png" alt="hinto" />
-            <img className="images" src="./src/assets/Architecture/collage.png" alt="collage" />
           </div>
         </ArchContent>
       </div>

@@ -16,9 +16,6 @@
   margin-top: -5px;
 }
 
-ul {
-  margin: 0px;
-}
 
 .details {
   width: 90%;
@@ -26,34 +23,53 @@ ul {
 }
 
 .skillsBody {
-  margin: 15px 10px;
+  margin: 20px 10px;
   font-family: "Lato-thin";
 }
 
-.educationBody {
-  margin: 15px 10px;
+.skillsLine {
+  margin-bottom: 5px;
 }
 
-.employmentBody {
-  margin: 15px 10px;
+.educationBody {
+  margin: 20px 10px;
 }
+
+/* .employmentBody {
+  margin: 15px 10px;
+} */
 
 .bodyHeaader {
   font-family: "Lato-light";
+}
+
+.dates {
+  font-family: "Lato-thin";
+}
+
+.bodyHeaader2 {
+  font-family: "Lato-thin";
+  margin-left: 10px;
+}
+
+.drafter {
+  margin-top: 5px;
 }
 
 .details {
   font-family: "Lato-thin";
   color: white;
   margin: 10px 0px;
-  margin-left: 15px;
+  width: 830px;
+  margin-left: 10px;
+}
 
+.desDetails {
+  font-family: "Lato-thin";
+  margin-left: 20px;
+  line-height: 30px;
 }
 
 .bootcamp {
   font-family: "Lato-thin";
-}
-
-.dates {
-  float: right;
 }

@@ -25,7 +25,14 @@ export function Experience () {
             <p className="details">
             A four-month full-stack web development bootcamp. Core technologies included Javascript, Ruby, Rails, and React.js. Special emphasis on API-driven development, version control with Git, professional tooling, team collaboration, and continual learning.
             </p>
-            <span><strong className="bodyHeaader">UNIVERSITY OF SAN FRANCISCO | BACHELOR OF ARTS IN ARCHITECTURE AND COMMUNITY DESIGN</strong>2014</span>
+            <div className="row">
+              <div className="bodyHeaader col-auto me-auto">
+                UNIVERSITY OF SAN FRANCISCO | BACHELOR OF ARTS IN ARCHITECTURE AND COMMUNITY DESIGN
+              </div>
+              <div className="dates col-auto">
+                2014
+              </div>
+            </div>
           </div>  
         </div>
         <div className="employment">
@@ -50,24 +57,39 @@ export function Experience () {
             </div>  
             <div className="DES">
               <div className="desDetails">
-                Produced 3D models for office wide use< br />
-                Lead Revit instructor for 150 person office< br />
-                Managed cloud models/worksharing, collaboration/data management products< br />
-                Guide team to create and complete design and construction documents< br /> 
-              </div>   
-              <span><strong className="bodyHeaader">DESIGNER</strong> Jan 2017</span>
-              <ul>
-                <span>Design multi-page layouts for city/clients showing Architectural design intent</span>
-                <span>Collaborate with clients to establish a design direction</span>
-                <span>Sketch, brainstorm and critique with design team</span>
-              </ul>
+                - Produced 3D models for office wide use< br />
+                - Lead Revit instructor for 150 person office< br />
+                - Managed cloud models/worksharing, collaboration/data management products< br />
+                - Guide team to create and complete design and construction documents< br /> 
+              </div>
+              <div className="designer row">   
+                <div className="bodyHeaader2 col-auto me-auto">
+                  DESIGNER
+                </div> 
+                <div className="dates col-auto">
+                  Jan 2017
+                </div>
+              </div>
+              <div className="desDetails">
+                - Design multi-page layouts for city/clients showing Architectural design intent<br />
+                - Collaborate with clients to establish a design direction<br />
+                - Directly oversaw the renderings produced by the graphics team<br />
+                - Sketch, brainstorm and critique with design team<br />
+              </div>
             </div>  
-            <span><strong className="bodyHeaader">CSDA DESIGN GROUP</strong> Jun 2014 - Dec 2017</span>
+            <div className="row">
+              <strong className="bodyHeaader col-auto me-auto">
+                CSDA DESIGN GROUP
+              </strong> 
+              <div className="dates col-auto">
+                Jun 2014 - Dec 2017
+              </div>
+            </div>
             <div className="CSDA">
-              <ul>
-                <span>Research and implement add-ins for Revit users</span>
-                <span>Generate 3-D building from illustrations and concepts</span>
-              </ul>
+              <div className="desDetails">
+                - Research and implement add-ins for Revit users<br />
+                - Generate 3-D building from illustrations and concepts<br />
+              </div>
             </div>  
           </div>
         </div>

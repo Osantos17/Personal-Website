@@ -72,7 +72,9 @@ export function Home () {
             <div className="homeLine"></div>
             <div className="detailBody">
               {clickControl.aboutMe && (
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, assumenda molestiae. Veritatis dolorum error ducimus sit tenetur id quam unde corporis aliquid quis necessitatibus exercitationem dicta incidunt, a saepe assumenda. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur praesentium provident exercitationem, recusandae sunt quod consequatur perferendis totam ratione. Exercitationem, quasi sapiente repellat iure mollitia commodi repudiandae doloribus! Voluptatum, debitis?</p> )}
+              <p>Hi, my name is Orlando Santos, I have always found solace in art and design, harboring a deep passion for creating things that spark joy. While I initially pursued a career in architecture to nurture my design aspirations, I soon realized that it often meant navigating through city regulations and city/client paperwork. While still working I attempted to start a local business with a couple friends; I dedicated late nights to crafting logos and designing the website. Working on my layouts and designs gave me the creative satisfaction that was lacking at my job.<br /><br />
+
+              That led me to explore the world of software engineering, which I once viewed as a realm of ones and zeros. However, a deeper dive unveiled the art and science of creating digital worlds. I then enrolled in Actualize coding bootcamp, throwing me into the world of full-stack web development and equipping me with the skills to adapt swiftly to emerging technologies. Graduating from Actualize marked a significant milestone in my ongoing journey. I'm eager to fuse my background, passion for design, and newfound coding expertise to create innovative digital solutions</p> )}
               {clickControl.projects && (
               <div className="myapps">
                 <h6>CAMPING PLANNER</h6>

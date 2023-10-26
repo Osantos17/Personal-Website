@@ -48,8 +48,9 @@
 }
 
 .bodyHeaader2 {
-  font-family: "Lato-thin";
+  font-family: "Lato-light";
   margin-left: 10px;
+  font-size: 14px;
 }
 
 .drafter {
@@ -68,6 +69,7 @@
   font-family: "Lato-thin";
   margin-left: 20px;
   line-height: 30px;
+  margin-bottom: 5px;
 }
 
 .bootcamp {

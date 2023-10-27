@@ -39,61 +39,45 @@
   left: 0;
 }
 
+.backgroundContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
 .leftBackground {
   background-color: rgb(42, 55, 38);
-  position: absolute;
   width: 38.2%;
-  top: 50px;
-  bottom: 50px;
-  left: 50px;
   overflow-y: scroll;
-  max-height: calc(100% - 100px);
+  height: 90vh;
 }
 
 .rightBackground {
   background-color: rgb(96, 115, 96);
-  position: absolute;
   width: 61.8%;
-  top: 50px;
-  bottom: 50px;
-  right: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow-y: scroll;
-  max-height: calc(100% - 100px);
+  height: 90vh;
 }
-
 
 .selected {
   font-family: 'Lato-Regular', sans-serif;
-  margin-left: 0px;
   background-color: rgba(0, 0, 0, 0.21);
-  padding-left: 20px;
-  width: 100%;
 }
 
 .index {
   background-color: transparent;
-  border-width: 0;
-  font-family: inherit;
-  font-size: inherit;
-  font-style: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  padding: 0;
   color: white;
   font-size: 20px;
   transition: all 0.5s;
   cursor: pointer;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0px;
 }
 
 .homeLine {
-  width: 90%;
+  width: 100%;
   border: .05px solid rgba(255, 255, 255, 0.401);
   margin-bottom: 20px;
 }
@@ -145,7 +129,7 @@
 }
 
 .detailBody {
-  margin-left: 20px;
+  margin: 20px;
 }
 
 .index:hover span:before,
@@ -155,8 +139,7 @@
 
 p {
   font-family: 'Lato-Light', sans-serif;
-  margin-left: 20px;
-  width: 500px;
+  margin: 0px 10px;
   color: white;
   margin-bottom: 20px;
 }
@@ -173,17 +156,12 @@ h6 {
   color: white;
 }
 
-.myLinks {
-  margin-left: 15px;
-  position: absolute;
-  bottom: 20px;
-  color: white;
-  font-family: 'Lato-Light', sans-serif;
-  font-size: 16px;
+.mySitesContainer {
+  position: relative;
+  top: 20%;
 }
 
 .mySites {
-  margin-left: 10px;
   font-size: 14px;
 }
 
@@ -191,13 +169,11 @@ h6 {
   background-color: transparent;
   border: none;
   padding: 0;
-  text-align: inherit;
   border-radius: 0;
   appearance: none;
 }
 
 .git {
-  margin-left: 30px;
   max-width: 42px;
   max-height: 42px;
   transition: max-width 0.5s, max-height 0.5s;
@@ -213,7 +189,6 @@ h6 {
 .gmailIcon {
   max-width: 45px;
   max-height: 45px;
-  margin-left: 10px;
   transition: max-width 0.5s, max-height 0.5s;
 }
 
@@ -225,14 +200,10 @@ h6 {
 }
 
 .gmail:before {
-  position: absolute;
   opacity: 0;
-  bottom: 55px;
-  left: 230px;
   transition: 0.5s;
   content: 'click to copy';
   font-size: 14px;
-  width: 100px;
   z-index: 1;
 }
 
@@ -253,9 +224,6 @@ h6 {
   transition: 0.5s;
 }
 
-.connection {
-  margin-right: 60px;
-}
 
 .copiedAlert {
   position: absolute;

@@ -3,7 +3,7 @@ import "./AboutMe.css"
 export function AboutMe () {
 
   return (
-  <div className="rightBackground">
+  <div>
     <div className="profile">
       <img className="profilePic" src="src/assets/Profile-white.jpg" alt="profile pic" />
     </div>

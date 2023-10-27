@@ -18,25 +18,16 @@
 
 .titles {
   font-family: 'Lato-Light', sans-serif;
-  position: absolute;
-  width: auto;
-  bottom: 220px;
   font-size: 32px;
   color: white;
 }
 
 .written {
   font-family: 'Lato-Light', sans-serif;
-  position: absolute;
-  bottom: 105px;
   color: white;
 }
 
-.codeLogos {
-  position: absolute;
-  bottom: 30px;
-  width: 1400px;
-}
+.codeLogos {}
 
 .logo {
   max-width: 90px;

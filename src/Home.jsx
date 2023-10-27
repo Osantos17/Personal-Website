@@ -61,13 +61,15 @@ export function Home () {
   return (
     <div>
       <div className="homeBackground">
-        <div className="leftBackground">
-          <div className="directory">
-            <div className="selected">
-              <button onClick={() => toggleOpen ("aboutMe")} className="index"><span> ABOUT ME </span> </button>
-              <button onClick = {() => toggleOpen ("projects")} className="index projects"><span>PROJECTS</span></button>
-              <button onClick={() => toggleOpen ("experience")} className="index experience"><span>EXPERIENCE</span></button>
-              <button onClick={() => toggleOpen ("interests")} className="index"><span>INTERESTS</span></button>
+        <div className='backgroundContainer'>
+          <div className="leftBackground">
+            <div className="selected container text-center">
+              <div className="row align-items-start">
+                <button onClick={() => toggleOpen ("aboutMe")} className="index col"><span> ABOUT ME </span> </button>
+                <button onClick = {() => toggleOpen ("projects")} className="index projects col"><span>PROJECTS</span></button>
+                <button onClick={() => toggleOpen ("experience")} className="index experience col"><span>EXPERIENCE</span></button>
+                <button onClick={() => toggleOpen ("interests")} className="index col"><span>INTERESTS</span></button>
+              </div>
             </div>
             <div className="homeLine"></div>
             <div className="detailBody">
@@ -84,7 +86,7 @@ export function Home () {
               </div> )}
               {clickControl.experience && (
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, assumenda molestiae. Veritatis dolorum error ducimus sit tenetur id quam unde corporis aliquid quis necessitatibus exercitationem dicta incidunt, a saepe assumenda. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur praesentium provident exercitationem, recusandae sunt quod consequatur perferendis totam ratione. Exercitationem, quasi sapiente repellat iure mollitia commodi repudiandae doloribus! Voluptatum, debitis?</p> )}
-             {clickControl.interests && (
+              {clickControl.interests && (
               <div className="myinterests">
                 <h6>WOODWORKING</h6>
                 <p> Design in woodworking requires meticulous planning and the ability to envision the end product. This attention to detail finds its reflection in frontend coding, where developers craft user interfaces that elegantly merge visual appeal with practical functionality. Both woodworking and software engineering demand a harmonious blend of creativity and precision to yield a polished final product. The principles of thoughtful design and scrupulous execution resonate universally in these disciplines.
@@ -95,39 +97,49 @@ export function Home () {
                 <p> All the architecture images featured represent projects in which I played an integral role. For allt the renderings, I modeled the buildings in a 3D program. I would then collaborate with our graphics team produce renderings the models for our clients.</p>
               </div> )}
             </div>
+            <div className="mySitesContainer">
+              <h5 className="mySites">MY SITES</h5>
+              <div className="container text-center">
+                <div className="row align-items-end">
+                  <div className="col-2">
+                    <a href='https://github.com/Osantos17'><img className="connection git" src="./src/assets/git.png" alt="GitHub" /></a>
+                  </div>
+                  <div className="col-2">
+                    <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link" src="./src/assets/linkedin.png" alt="LinkedIn" /></a>
+                  </div>
+                  <div className="col-2">
+                    <span className="gmail" onClick={copyText}><img className ="gmailIcon" src="./src/assets/gmail.png" alt="Gmail" /></span>
+                    {showCopyMessage && (
+                      <div className="copiedAlert">Copied!</div>
+                    )}
+                  </div>
+                </div>  
+              </div>
+            </div>  
           </div>
-          <div className="myLinks">
-            <h5 className="row mySites">MY SITES</h5>
-            <a href='https://github.com/Osantos17'><img className="connection git col" src="./src/assets/git.png" alt="GitHub" /></a>
-            <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link col" src="./src/assets/linkedin.png" alt="LinkedIn" /></a>
-            <span className="gmail col" onClick={copyText}><img className ="gmailIcon" src="./src/assets/gmail.png" alt="Gmail" /></span>
-            {showCopyMessage && (
-              <div className="copiedAlert">Copied!</div>
+          <div className='rightBackground'>
+            {clickControl.aboutMe && (
+            <AboutMeContent>
+              <AboutMe />
+            </AboutMeContent>
             )}
-          </div>
+            {clickControl.experience && (
+            <ExperienceContent>
+              <Experience />
+            </ExperienceContent>
+            )}
+            {clickControl.interests && (
+            <InterestContent>
+              <Interests />
+            </InterestContent>
+            )}
+            {clickControl.projects && (
+            <ProjectContent>
+              <Projects />
+            </ProjectContent>
+            )}
+          </div> 
         </div>
-        <div className='rightContent'>
-          {clickControl.aboutMe && (
-          <AboutMeContent>
-            <AboutMe />
-          </AboutMeContent>
-          )}
-          {clickControl.experience && (
-          <ExperienceContent>
-            <Experience />
-          </ExperienceContent>
-          )}
-          {clickControl.interests && (
-          <InterestContent>
-            <Interests />
-          </InterestContent>
-          )}
-          {clickControl.projects && (
-          <ProjectContent>
-            <Projects />
-          </ProjectContent>
-          )}
-        </div> 
       </div>
     </div>
   )

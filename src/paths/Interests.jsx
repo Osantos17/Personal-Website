@@ -21,9 +21,9 @@ export function Interests() {
   `;
 
   return (
-    <div className="rightBackground">
+    <div>
       <div className="containerWood">
-        <h3 className="imgCategory">WOODWORKING</h3>
+      <h3 className="imgCategory">WOODWORKING</h3>
         <WoodContent>
           <div className="imagesContainer">
             <img className="images" src="./src/assets/Wood/crib.jpg" alt="crib" />

@@ -35,25 +35,28 @@ export function Home () {
   }; 
 
   const AboutMeContent = styled.div`
-  height: 74vh;
+  height: 100%;
   width: 100%;
   overflow-y: scroll;
+  overflow-x: hidden;
 `;
 
   const ExperienceContent = styled.div`
-  height: 20vh;
+  height: 90vh;
   width: 100%;
   overflow-y: scroll;
+  overflow-x: hidden;
   `;
 
   const InterestContent = styled.div`
-  height: 74vh;
+  height: 90vh;
   width: 100%;
   overflow-y: scroll;
+  overflow-x: hidden;
   `;
 
   const ProjectContent = styled.div`
-  height: 74vh;
+  height: 90vh;
   width: 100%;
   overflow-y: scroll;
   `;
@@ -100,21 +103,21 @@ export function Home () {
             <div className="mySitesContainer">
               <h5 className="mySites">MY SITES</h5>
               <div className="container text-center">
-                <div className="row align-items-end">
-                  <div className="col-2">
+                <div className="myLinks row">
+                  <div className="col-4">
                     <a href='https://github.com/Osantos17'><img className="connection git" src="./src/assets/git.png" alt="GitHub" /></a>
                   </div>
-                  <div className="col-2">
+                  <div className="col-4">
                     <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link" src="./src/assets/linkedin.png" alt="LinkedIn" /></a>
                   </div>
-                  <div className="col-2">
-                    <span className="gmail" onClick={copyText}><img className ="gmailIcon" src="./src/assets/gmail.png" alt="Gmail" /></span>
-                    {showCopyMessage && (
-                      <div className="copiedAlert">Copied!</div>
-                    )}
+                  <div className="col-4">
+                    <span className="gmail" onClick={copyText}><img className ="connection gmailIcon" src="./src/assets/gmail.png" alt="Gmail" /></span>
                   </div>
-                </div>  
+                </div> 
               </div>
+              {showCopyMessage && (
+                  <div className="copiedAlert">Copied!</div>
+                )} 
             </div>  
           </div>
           <div className='rightBackground'>

@@ -17,9 +17,9 @@
 }
 
 .inProgress {
-  position: absolute;
-  right: 30px;
+  font-family: 'Lato-Regular', sans-serif;
+  position: relative;
+  bottom: 250px;
   font-size: 60px;
   transform: rotate(-55deg);
-
 }

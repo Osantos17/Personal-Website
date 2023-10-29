@@ -2,7 +2,7 @@ import "./Experience.css"
 
 export function Experience () {
   return(
-    <div className="rightBackground">
+    <div className="experienceContainer">
       <div className="experiencePage">
         <div className="skills ">
           <h5 className="resumeHeader">SKILLS</h5>
@@ -22,9 +22,9 @@ export function Experience () {
             <div className="bootcamp row">
               <div className="bodyHeaader col-auto me-auto">ACTUALIZE CODING BOOTCAMP | CERTIFICATE IN FULL STACK WEB DEVELOPMENT</div><div className="dates col-auto">Jul 2023 - Oct 2023</div>
             </div>
-            <p className="details">
+            <div className="details">
             A four-month full-stack web development bootcamp. Core technologies included Javascript, Ruby, Rails, and React.js. Special emphasis on API-driven development, version control with Git, professional tooling, team collaboration, and continual learning.
-            </p>
+            </div>
             <div className="row">
               <div className="bodyHeaader col-auto me-auto">
                 UNIVERSITY OF SAN FRANCISCO | BACHELOR OF ARTS IN ARCHITECTURE AND COMMUNITY DESIGN

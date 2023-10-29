@@ -1,24 +1,23 @@
-.containerWood {
-  margin-left: 40px;
-  position: relative;
-  top: 0px;
+.interestsContainer {
+  max-height: 100%;
 }
 
-.woodDescription {
-  position: absolute;
-  top: 5px;
+.containerWood {
+  position: relative;
+  bottom: 150px;
+  left: 50px;
 }
 
 .containerArch {
-  position: absolute;
-  bottom: 280px;
-  left: 80px;
+  position: relative;
+  bottom: 330px;
+  left: 50px;
 }
 
 .containerSketch {
-  position: absolute;
-  bottom: 20px;
-  left: 80px;
+  position: relative;
+  bottom: 460px;
+  left: 50px;
 }
 
 .images {
@@ -32,12 +31,12 @@
 .imagesContainer {
   display: flex;
   flex-direction: row;
+  margin-left: 50px;
 }
 
 .imgCategory {
   position: relative;
-  right: 42px;
-  top: 100px;
+  top: 210px;
   writing-mode: vertical-rl;
   text-orientation: upright;
   font-size: 16px;

@@ -21,9 +21,9 @@ export function Interests() {
   `;
 
   return (
-    <div>
+    <div className="interestsContainer">
       <div className="containerWood">
-      <h3 className="imgCategory">WOODWORKING</h3>
+        <h3 className="imgCategory">WOODWORKING</h3>
         <WoodContent>
           <div className="imagesContainer">
             <img className="images" src="./src/assets/Wood/crib.jpg" alt="crib" />
@@ -38,7 +38,7 @@ export function Interests() {
         </WoodContent>
       </div>
       <div className="containerArch"> 
-        <h3 className="imgCategory">ARCHITECTURE</h3>
+       <h3 className="imgCategory">ARCHITECTURE</h3>
         <ArchContent>
           <div className="imagesContainer">
             <img className="images" src="./src/assets/Architecture/1150.png" alt="1150" />

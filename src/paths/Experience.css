@@ -1,8 +1,7 @@
 .experiencePage {
-  position: absolute;
-  top: 43px;
-  width: 86%;
   color: white;
+  margin: 0px 20px;
+  margin-top: 42px;
 }
 
 .resumeHeader {
@@ -18,7 +17,6 @@
 
 
 .details {
-  width: 90%;
   color: black;
 }
 
@@ -34,10 +32,6 @@
 .educationBody {
   margin: 20px 10px;
 }
-
-/* .employmentBody {
-  margin: 15px 10px;
-} */
 
 .bodyHeaader {
   font-family: "Lato-light";
@@ -61,7 +55,7 @@
   font-family: "Lato-thin";
   color: white;
   margin: 10px 0px;
-  width: 830px;
+  width: 95%;
   margin-left: 10px;
 }
 

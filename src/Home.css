@@ -243,7 +243,8 @@ h6 {
   z-index: 1;
 }
 
-/* Add this CSS for mobile version */
+/* ------ MOBILE STYLING ---------- */
+
 @media (max-width: 768px) {
 
   .homeBackground {
@@ -252,19 +253,15 @@ h6 {
 
   .backgroundContainer {
     flex-direction: column;
-    /* Stack elements vertically on smaller screens */
   }
 
   .rightBackground {
     width: 100%;
-    /* Expand the left background to full width */
     order: 2;
-    /* Move the left background below the right background */
   }
 
   .leftBackground {
     width: 100%;
     order: 1;
-    /* Move the right background above the left background */
   }
 }

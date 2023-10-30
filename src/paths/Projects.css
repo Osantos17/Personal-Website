@@ -24,6 +24,9 @@
   transform: rotate(-55deg);
 }
 
+/* ------ MOBILE STYLING ---------- */
+
+
 @media (max-width: 768px) {
   .campingLogo {
     margin-bottom: 40px;

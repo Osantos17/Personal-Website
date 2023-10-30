@@ -58,6 +58,8 @@
   height: 160px;
 }
 
+/* ------ MOBILE STYLING ---------- */
+
 @media (max-width: 768px) {
 
   .profileContainer {

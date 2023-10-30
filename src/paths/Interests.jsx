@@ -3,29 +3,29 @@ import styled from "styled-components";
 
 export function Interests() {
   const WoodContent = styled.div`
-    height: 24vh;
-    width: 105vh;
-    overflow-x: auto;
+    height: 25vh;
+    width: 90%;
+    overflow-x: scroll;
   `;
 
   const ArchContent = styled.div`
     height: 25vh;
-    width: 105vh;
-    overflow-x: auto;
+    width: 90%;
+    overflow-x: scroll;
   `;
 
   const SketchContent = styled.div`
   height: 25vh;
-  width: 105vh;
-  overflow-x: auto;
+  width: 90%;
+  overflow-x: scroll;
   `;
 
   return (
     <div className="interestsContainer">
       <div className="containerWood">
-        <h3 className="imgCategory">WOODWORKING</h3>
         <WoodContent>
           <div className="imagesContainer">
+            <h3 className="imgCategory">WOODWORKING</h3>
             <img className="images" src="./src/assets/Wood/crib.jpg" alt="crib" />
             <img className="images" src="./src/assets/Wood/fire.jpg" alt="fire" />
             <img className="images" src="./src/assets/Wood/coop.jpg" alt="coop" />
@@ -38,9 +38,9 @@ export function Interests() {
         </WoodContent>
       </div>
       <div className="containerArch"> 
-       <h3 className="imgCategory">ARCHITECTURE</h3>
         <ArchContent>
           <div className="imagesContainer">
+            <h3 className="imgCategory">ARCHITECTURE</h3>
             <img className="images" src="./src/assets/Architecture/1150.png" alt="1150" />
             <img className="images" src="./src/assets/Architecture/851.png" alt="851" />
             <img className="images" src="./src/assets/Architecture/harbor.png" alt="harbor" />
@@ -52,9 +52,9 @@ export function Interests() {
         </ArchContent>
       </div>
       <div className="containerSketch"> 
-        <h3 className="imgCategory">SKETCHES</h3>
         <SketchContent>
           <div className="imagesContainer">
+            <h3 className="imgCategory">SKETCHES</h3>
             <img className="images" src="./src/assets/Sketches/bowl.jpeg" alt="bowl" />
             <img className="images" src="./src/assets/Sketches/invite.jpg" alt="invite" />
             <img className="images" src="./src/assets/Sketches/vase.jpeg" alt="vase" />

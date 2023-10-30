@@ -49,7 +49,7 @@ export function Experience () {
             </div>
             <div className="drafter row">
               <div className="bodyHeaader2 col-auto me-auto">
-                DRAFTER III | BIM COORDINATOR
+                LEAD DRAFTER | BIM COORDINATOR
               </div> 
               <div className="dates col-auto">
                 Jan 2020

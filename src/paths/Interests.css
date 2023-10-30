@@ -1,24 +1,16 @@
 .interestsContainer {
   max-height: 100%;
+  margin-top: 50px;
 }
 
 .containerWood {
-  position: relative;
-  bottom: 150px;
-  left: 50px;
+  margin-bottom: 20px;
 }
 
 .containerArch {
-  position: relative;
-  bottom: 330px;
-  left: 50px;
+  margin-bottom: 20px;
 }
 
-.containerSketch {
-  position: relative;
-  bottom: 460px;
-  left: 50px;
-}
 
 .images {
   max-width: 300px;
@@ -31,12 +23,9 @@
 .imagesContainer {
   display: flex;
   flex-direction: row;
-  margin-left: 50px;
 }
 
 .imgCategory {
-  position: relative;
-  top: 210px;
   writing-mode: vertical-rl;
   text-orientation: upright;
   font-size: 16px;

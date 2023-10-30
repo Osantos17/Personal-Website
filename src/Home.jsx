@@ -35,7 +35,7 @@ export function Home () {
   }; 
 
   const AboutMeContent = styled.div`
-  height: 100%;
+  height: 90vh;
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -66,12 +66,12 @@ export function Home () {
       <div className="homeBackground">
         <div className='backgroundContainer'>
           <div className="leftBackground">
-            <div className="selected container text-center">
-              <div className="row align-items-start">
-                <button onClick={() => toggleOpen ("aboutMe")} className="index col"><span> ABOUT ME </span> </button>
-                <button onClick = {() => toggleOpen ("projects")} className="index projects col"><span>PROJECTS</span></button>
-                <button onClick={() => toggleOpen ("experience")} className="index experience col"><span>EXPERIENCE</span></button>
-                <button onClick={() => toggleOpen ("interests")} className="index col"><span>INTERESTS</span></button>
+            <div className="selected ">
+              <div className="indexHeader row align-items-start">
+                <button onClick={() => toggleOpen ("aboutMe")} className="index col-3 col-sm-3"><span>ABOUT ME</span></button>
+                <button onClick = {() => toggleOpen ("projects")} className="index projects col-3 col-sm-3"><span>PROJECTS</span></button>
+                <button onClick={() => toggleOpen ("experience")} className="index experience col-3 col-sm-3"><span>EXPERIENCE</span></button>
+                <button onClick={() => toggleOpen ("interests")} className="index col-3 col-sm-3"><span>INTERESTS</span></button>
               </div>
             </div>
             <div className="homeLine"></div>
@@ -104,13 +104,13 @@ export function Home () {
               <h5 className="mySites">MY SITES</h5>
               <div className="container text-center">
                 <div className="myLinks row">
-                  <div className="col-4">
+                  <div className="col-3 col-sm-3">
                     <a href='https://github.com/Osantos17'><img className="connection git" src="./src/assets/git.png" alt="GitHub" /></a>
                   </div>
-                  <div className="col-4">
+                  <div className="col-3 col-sm-3">
                     <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link" src="./src/assets/linkedin.png" alt="LinkedIn" /></a>
                   </div>
-                  <div className="col-4">
+                  <div className="col-3 col-sm-4">
                     <span className="gmail" onClick={copyText}><img className ="connection gmailIcon" src="./src/assets/gmail.png" alt="Gmail" /></span>
                   </div>
                 </div> 

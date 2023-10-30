@@ -37,6 +37,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+  height: 100%;
 }
 
 .backgroundContainer {
@@ -58,12 +59,16 @@
   width: 65%;
   min-height: 90vh;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
-
 
 .selected {
   font-family: 'Lato-Regular', sans-serif;
   background-color: rgba(0, 0, 0, 0.21);
+}
+
+.indexHeader {
+  margin: 0px 5px;
 }
 
 .index {
@@ -91,40 +96,20 @@
 .index span:before,
 .index span:after {
   content: '[';
-  position: absolute;
+  position: relative;
   opacity: 0;
   top: 0;
-  left: 0px;
+  right: 5px;
   transition: 0.5s;
 }
 
 .index span:after {
   content: ']';
-  position: absolute;
+  position: relative;
   opacity: 0;
   top: 0;
-  right: -144px;
+  left: 5px;
   transition: 0.5s;
-}
-
-.capstone span:after {
-  right: -248px;
-}
-
-.experience span:after {
-  right: -120px;
-}
-
-.skills span:after {
-  right: -110px;
-}
-
-.experience span:after {
-  right: -155px;
-}
-
-.index:hover span {
-  padding-left: 15px;
 }
 
 .detailBody {
@@ -203,8 +188,8 @@ h6 {
 }
 
 .mySitesContainer {
-  position: absolute;
-  bottom: 60px;
+  position: relative;
+  bottom: 0px;
 }
 
 .connection {
@@ -247,7 +232,7 @@ h6 {
 .copiedAlert {
   position: absolute;
   bottom: 75px;
-  left: 305px;
+  left: 365px;
   text-align: center;
   background-color: rgb(20, 27, 18);
   color: white;
@@ -256,4 +241,30 @@ h6 {
   width: 85px;
   font-size: 12px;
   z-index: 1;
+}
+
+/* Add this CSS for mobile version */
+@media (max-width: 768px) {
+
+  .homeBackground {
+    height: 200%;
+  }
+
+  .backgroundContainer {
+    flex-direction: column;
+    /* Stack elements vertically on smaller screens */
+  }
+
+  .rightBackground {
+    width: 100%;
+    /* Expand the left background to full width */
+    order: 2;
+    /* Move the left background below the right background */
+  }
+
+  .leftBackground {
+    width: 100%;
+    order: 1;
+    /* Move the right background above the left background */
+  }
 }

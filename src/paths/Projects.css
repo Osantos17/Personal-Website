@@ -7,8 +7,8 @@
 }
 
 .aframeLogo {
-  max-width: 350px;
-  max-height: 450px;
+  max-width: 355px;
+  max-height: 455px;
   width: auto;
   height: auto;
   margin: 0px 60px;
@@ -22,4 +22,21 @@
   bottom: 250px;
   font-size: 60px;
   transform: rotate(-55deg);
+}
+
+@media (max-width: 768px) {
+  .campingLogo {
+    margin-bottom: 40px;
+    max-width: 220px;
+    max-height: 320px;
+  }
+
+  .aframeLogo {
+    max-width: 220px;
+    max-height: 320px;
+  }
+
+  .inProgress {
+    bottom: 190px;
+  }
 }

@@ -1,4 +1,4 @@
-import './interests.css'
+import './Interests.css'
 import styled from "styled-components";
 
 export function Interests() {

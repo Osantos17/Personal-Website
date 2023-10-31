@@ -105,13 +105,13 @@ export function Home () {
               <div className="container text-center">
                 <div className="myLinks row">
                   <div className="col-3 col-sm-3">
-                    <a href='https://github.com/Osantos17'><img className="connection git" src="src/assets/git.png" alt="GitHub" /></a>
+                    <a href='https://github.com/Osantos17'><img className="connection git" src="/assets/git.png" alt="GitHub" /></a>
                   </div>
                   <div className="col-3 col-sm-3">
-                    <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link" src="src/assets/linkedin.png" alt="LinkedIn" /></a>
+                    <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link" src="/assets/linkedin.png" alt="LinkedIn" /></a>
                   </div>
                   <div className="col-3 col-sm-4">
-                    <span className="gmail" onClick={copyText}><img className ="connection gmailIcon" src="src/assets/gmail.png" alt="Gmail" /></span>
+                    <span className="gmail" onClick={copyText}><img className ="connection gmailIcon" src="/assets/gmail.png" alt="Gmail" /></span>
                   </div>
                 </div> 
               </div>

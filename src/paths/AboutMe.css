@@ -63,26 +63,32 @@
 @media (max-width: 768px) {
 
   .profileContainer {
-    top: 100px;
+    top: 50px;
   }
 
   .profilePic {
-    max-width: 400px;
-    max-height: 350px;
+    max-width: 300px;
+    max-height: 250px;
   }
 
   .name {
-    font-size: 50px;
-    bottom: 260px;
-    left: 80px;
+    font-size: 40px;
+    bottom: 195px;
+    left: 60px;
   }
 
   .titles {
-    font-size: 20px;
-    bottom: 60px;
+    font-size: 16px;
+    bottom: 45px;
   }
 
   .logoContainer {
-    top: 100px;
+    top: 50px;
   }
+
+  .logo {
+    max-width: 45px;
+    max-height: 35px;
+  }
+
 }

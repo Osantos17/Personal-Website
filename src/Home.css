@@ -247,6 +247,10 @@ h6 {
 
 @media (max-width: 768px) {
 
+  .backgroundContainer {
+    margin: 20px;
+  }
+
   .homeBackground {
     height: 200%;
   }
@@ -263,5 +267,32 @@ h6 {
   .leftBackground {
     width: 100%;
     order: 1;
+  }
+
+  .index {
+    font-size: 16px;
+  }
+
+  .mySites {
+    font-size: 12px;
+    margin-left: 30px;
+  }
+
+  .git {
+    max-width: 30px;
+    max-height: 30px;
+    transition: max-width 0.5s, max-height 0.5s;
+  }
+
+  .gmailIcon {
+    max-width: 35px;
+    max-height: 35px;
+    transition: max-width 0.5s, max-height 0.5s;
+  }
+
+  .link {
+    max-width: 30px;
+    max-height: 30px;
+    transition: max-width 0.5s, max-height 0.5s;
   }
 }

@@ -278,11 +278,11 @@ h6 {
   }
 
   .index {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .mySites {
-    font-size: 12px;
+    font-size: 10px;
     margin-left: 30px;
   }
 
@@ -306,6 +306,6 @@ h6 {
   }
 
   .copiedAlert {
-    left: 240px;
+    left: 210px;
   }
 }

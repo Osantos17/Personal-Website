@@ -21,6 +21,7 @@
   width: auto;
   height: auto;
   margin: 0 10px;
+  overflow-y: hidden;
 }
 
 .imagesContainer {
@@ -40,8 +41,8 @@
 @media (max-width: 768px) {
 
   .images {
-    max-width: 250px;
-    max-height: 150px;
+    max-width: 230px;
+    max-height: 120px;
   }
 
 

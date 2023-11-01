@@ -69,3 +69,30 @@
 .bootcamp {
   font-family: "Lato-thin";
 }
+
+@media (max-width: 768px) {
+
+  .resumeHeader {
+    font-size: 16px;
+  }
+
+  .bodyHeaader {
+    font-size: 12px;
+  }
+
+  .skillsBody {
+    font-size: 12px;
+  }
+
+  .dates {
+    font-size: 12px;
+  }
+
+  .details {
+    font-size: 12px;
+  }
+
+  .desDetails {
+    font-size: 12px;
+  }
+}

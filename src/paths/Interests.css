@@ -1,17 +1,17 @@
 .interestsContainer {
   max-height: 100%;
   margin-top: 50px;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .containerWood {
   margin-bottom: 20px;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .containerArch {
   margin-bottom: 20px;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 
@@ -26,7 +26,7 @@
 .imagesContainer {
   display: flex;
   flex-direction: row;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .imgCategory {

@@ -269,8 +269,16 @@ h6 {
     order: 1;
   }
 
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
   .index {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .mySites {
@@ -279,17 +287,25 @@ h6 {
   }
 
   .git {
-    max-width: 20px;
-    max-height: 20px;
-  }
-
-  .gmailIcon {
     max-width: 25px;
     max-height: 25px;
   }
 
+  .gmail:before {
+    font-size: 10px;
+  }
+
+  .gmailIcon {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
   .link {
-    max-width: 20px;
-    max-height: 20px;
+    max-width: 25px;
+    max-height: 25px;
+  }
+
+  .copiedAlert {
+    left: 240px;
   }
 }

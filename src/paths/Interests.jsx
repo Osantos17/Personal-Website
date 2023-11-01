@@ -56,7 +56,7 @@ export function Interests() {
           <div className="imagesContainer">
             <h3 className="imgCategory">SKETCHES</h3>
             <img className="images" src="/assets/Sketches/bowl.jpeg" alt="bowl" />
-            <img className="images" src="/assets/Sketches/invite.jpg" alt="invite" />
+            <img className="images" src="/assets/Sketches/invite.JPG" alt="invite" />
             <img className="images" src="/assets/Sketches/vase.jpeg" alt="vase" />
             <img className="images" src="/assets/Sketches/plant.jpg" alt="plant" />
             <img className="images" src="/assets/Sketches/wave.jpg" alt="wave" />

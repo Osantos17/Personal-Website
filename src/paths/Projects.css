@@ -30,16 +30,17 @@
 @media (max-width: 768px) {
   .campingLogo {
     margin-bottom: 40px;
-    max-width: 220px;
-    max-height: 320px;
+    max-width: 180px;
+    max-height: 260px;
   }
 
   .aframeLogo {
-    max-width: 220px;
-    max-height: 320px;
+    max-width: 180px;
+    max-height: 260px;
   }
 
   .inProgress {
-    bottom: 190px;
+    bottom: 155px;
+    font-size: 50px;
   }
 }

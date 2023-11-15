@@ -116,7 +116,7 @@ export function Home () {
                   <div className="col-3 col-sm-3">
                     <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link" src="/assets/linkedin.png" alt="LinkedIn" /></a>
                   </div>
-                  <div className="col-4 col-md-4">
+                  <div className="col-3 col-md-3">
                     <span className="gmail" onClick={copyText}><img className ="connection gmailIcon" src="/assets/gmail.png" alt="Gmail" /></span>
                   </div>
                 </div> 

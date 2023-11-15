@@ -15,7 +15,6 @@
   margin-top: -5px;
 }
 
-
 .details {
   color: black;
 }
@@ -95,4 +94,9 @@
   .desDetails {
     font-size: 12px;
   }
+
+  .employmentBody {
+    margin-bottom: 40px;
+  }
+
 }

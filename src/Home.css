@@ -32,12 +32,7 @@
 
 .homeBackground {
   background-color: rgb(20, 27, 18);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100%;
+  padding: 10px 0px;
 }
 
 .backgroundContainer {
@@ -57,10 +52,9 @@
 .rightBackground {
   background-color: rgb(96, 115, 96);
   width: 65%;
-  min-height: 90vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  position: relative;
 }
+
 
 .selected {
   font-family: 'Lato-Regular', sans-serif;
@@ -251,8 +245,8 @@ h6 {
     margin: 20px;
   }
 
-  .homeBackground {
-    height: 200%;
+  .leftBackground {
+    min-height: 40vh;
   }
 
   .backgroundContainer {
@@ -262,6 +256,7 @@ h6 {
   .rightBackground {
     width: 100%;
     order: 2;
+    margin-bottom: 10px;
   }
 
   .leftBackground {

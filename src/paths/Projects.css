@@ -28,6 +28,12 @@
 
 
 @media (max-width: 768px) {
+
+  .logoContainerContent {
+    height: 65vh;
+    overflow-y: hidden;
+  }
+
   .campingLogo {
     margin-bottom: 40px;
     max-width: 180px;

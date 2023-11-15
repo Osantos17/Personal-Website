@@ -1,5 +1,4 @@
 .interestsContainer {
-  max-height: 100%;
   margin-top: 50px;
 }
 
@@ -36,6 +35,10 @@
 
 @media (max-width: 768px) {
 
+  .interestsContainer {
+    margin-top: 40px;
+  }
+
   .images {
     max-width: 250px;
     max-height: 150px;
@@ -43,6 +46,18 @@
 
   .imgCategory {
     font-size: 12px;
+  }
+
+  .containerWood {
+    margin-bottom: -40px;
+  }
+
+  .containerArch {
+    margin-bottom: -40px;
+  }
+
+  .containerSketch {
+    margin-bottom: -40px;
   }
 
 }

@@ -35,30 +35,27 @@ export function Home () {
   }; 
 
   const AboutMeContent = styled.div`
-  height: 90vh;
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-`;
+  `;
 
   const ExperienceContent = styled.div`
-  height: 90vh;
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
   `;
 
   const InterestContent = styled.div`
-  height: 90vh;
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
   `;
 
   const ProjectContent = styled.div`
-  height: 90vh;
   width: 100%;
   overflow-y: scroll;
+  overflow-x: hidden;
   `;
 
   return (
@@ -77,9 +74,12 @@ export function Home () {
             <div className="homeLine"></div>
             <div className="detailBody">
               {clickControl.aboutMe && (
-              <p>Hi, my name is Orlando Santos, I have always found solace in art and design, harboring a deep passion for creating things that spark joy. While I initially pursued a career in architecture to nurture my design aspirations, I soon realized that it often meant navigating through city regulations and city/client paperwork. While still working I attempted to start a local business with a couple friends; I dedicated late nights to crafting logos and designing the website. Working on my layouts and designs gave me the creative satisfaction that was lacking at my job.<br /><br />
+              <div className='myAboutMe'>
+                <h6>ABOUT ME</h6>
+                <p>Hi, my name is Orlando Santos, I have always found solace in art and design, harboring a deep passion for creating things that spark joy. While I initially pursued a career in architecture to nurture my design aspirations, I soon realized that it often meant navigating through city regulations and city/client paperwork. While still working I attempted to start a local business with a couple friends; I dedicated late nights to crafting logos and designing the website. Working on my layouts and designs gave me the creative satisfaction that was lacking at my job.<br /><br />
 
-              That led me to explore the world of software engineering, which I once viewed as a realm of ones and zeros. However, a deeper dive unveiled the art and science of creating digital worlds. I then enrolled in Actualize coding bootcamp, throwing me into the world of full-stack web development and equipping me with the skills to adapt swiftly to emerging technologies. Graduating from Actualize marked a significant milestone in my ongoing journey. I am eager to fuse my background, passion for design, and newfound coding expertise to create innovative digital solutions</p> )}
+                That led me to explore the world of software engineering, which I once viewed as a realm of ones and zeros. However, a deeper dive unveiled the art and science of creating digital worlds. I then enrolled in Actualize coding bootcamp, throwing me into the world of full-stack web development and equipping me with the skills to adapt swiftly to emerging technologies. Graduating from Actualize marked a significant milestone in my ongoing journey. I am eager to fuse my background, passion for design, and newfound coding expertise to create innovative digital solutions</p> 
+              </div>)}
               {clickControl.projects && (
               <div className="myapps">
                 <h6>CAMPING PLANNER</h6>
@@ -88,7 +88,13 @@ export function Home () {
                 <p>Currently, I am working on a Surf Forecast App developed using React, Ruby, JavaScript, HTML, CSS, and Bootstrap. Surfing is one of my passions, and I have noticed a need within the surfing community for a more straightforward surf forecast app. This application leverages geolocation and provides users with a list of nearby surf spots along with ratings based on tides and weather data from various APIs. It offers real-time data and a 7-day forecast, along with rendered tide charts and selected map data. My end goal is to make this app available to surfers worldwide, providing them with essential information to catch the perfect wave.</p>
               </div> )}
               {clickControl.experience && (
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, assumenda molestiae. Veritatis dolorum error ducimus sit tenetur id quam unde corporis aliquid quis necessitatibus exercitationem dicta incidunt, a saepe assumenda. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur praesentium provident exercitationem, recusandae sunt quod consequatur perferendis totam ratione. Exercitationem, quasi sapiente repellat iure mollitia commodi repudiandae doloribus! Voluptatum, debitis?</p> )}
+              <div className='myExperience'>
+                <h6>EXPERIENCE</h6>
+                <p>At Actualize Coding Bootcamp I underwent a transformative journey from a coding novice to an entry-level software developer. The curriculum, focused on full stack web development, employed technologies such as JavaScript, React, HTML, Ruby, Rails, CSS, SQL, and Git. This dynamic learning environment equipped me not only with specific technical skills but also instilled the ability to independently approach and master any software-related challenge.</p>
+                <p>
+                  My background in architecture has finely tuned my design prowess, cultivating spatial awareness and the craftsmanship of creating functional, aesthetically pleasing environments. This proficiency seamlessly aligns with the demands of software development, where the focus is on crafting intuitive and user-friendly digital interfaces.
+                </p> 
+              </div>)}
               {clickControl.interests && (
               <div className="myinterests">
                 <h6>WOODWORKING</h6>
@@ -121,26 +127,26 @@ export function Home () {
             </div>  
           </div>
           <div className='rightBackground'>
-            {clickControl.aboutMe && (
-            <AboutMeContent>
-              <AboutMe />
-            </AboutMeContent>
-            )}
-            {clickControl.experience && (
-            <ExperienceContent>
-              <Experience />
-            </ExperienceContent>
-            )}
-            {clickControl.interests && (
-            <InterestContent>
-              <Interests />
-            </InterestContent>
-            )}
-            {clickControl.projects && (
-            <ProjectContent>
-              <Projects />
-            </ProjectContent>
-            )}
+              {clickControl.aboutMe && (
+              <AboutMeContent>
+                <AboutMe />
+              </AboutMeContent>
+              )}
+              {clickControl.experience && (
+              <ExperienceContent>
+                <Experience />
+              </ExperienceContent>
+              )}
+              {clickControl.interests && (
+              <InterestContent>
+                <Interests />
+              </InterestContent>
+              )}
+              {clickControl.projects && (
+              <ProjectContent>
+                <Projects />
+              </ProjectContent>
+              )}
           </div> 
         </div>
       </div>

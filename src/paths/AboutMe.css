@@ -38,6 +38,10 @@
   margin-bottom: 20px;
 }
 
+h6 {
+  font-family: 'Lato-Light', sans-serif;
+}
+
 .logoContainer {
   position: relative;
   top: 160px;
@@ -87,7 +91,7 @@
   }
 
   .logoContainer {
-    top: 50px;
+    top: 30px;
   }
 
   .logo {

@@ -15,10 +15,6 @@
   margin-top: -5px;
 }
 
-.details {
-  color: black;
-}
-
 .skillsBody {
   margin: 20px 10px;
   font-family: "Lato-thin";
@@ -97,6 +93,13 @@
 
   .employmentBody {
     margin-bottom: 40px;
+  }
+
+  .skillsBody,
+  .dates,
+  .details,
+  .desDetails {
+    font-family: "Lato-light";
   }
 
 }

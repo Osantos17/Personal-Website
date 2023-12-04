@@ -15,6 +15,7 @@ export function Projects () {
             <div className="row justify-content-evenly">
               <div className="col">
                 <a href="https://park-planner.onrender.com/"><img className="campingLogo" src="/assets/camping.jpg"></img></a>
+                <p className="desktop">DESKTOP VIEW ONLY</p>
               </div>
               <div className="col">
                 <img className="aframeLogo" src="/assets/Aframe.jpg"></img>

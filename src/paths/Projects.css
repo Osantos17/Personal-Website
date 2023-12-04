@@ -1,27 +1,33 @@
 .campingLogo {
-  max-width: 320px;
+  max-width: 305px;
   max-height: 420px;
   width: auto;
   height: auto;
-  margin: 0px 60px;
+}
+
+.desktop {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-family: 'Lato-thin', sans-serif;
 }
 
 .aframeLogo {
-  max-width: 325px;
+  max-width: 305px;
   max-height: 425px;
   width: auto;
   height: auto;
-  margin: 0px 60px;
-  opacity: 70%;
+  opacity: 60%;
 
 }
 
 .inProgress {
   font-family: 'Lato-Regular', sans-serif;
   position: relative;
-  bottom: 250px;
+  bottom: 280px;
   font-size: 60px;
   transform: rotate(-55deg);
+  opacity: 90%;
 }
 
 /* ------ MOBILE STYLING ---------- */
@@ -40,13 +46,18 @@
     max-height: 260px;
   }
 
+  .desktop {
+    position: relative;
+    bottom: 30px;
+  }
+
   .aframeLogo {
     max-width: 180px;
     max-height: 260px;
   }
 
   .inProgress {
-    bottom: 155px;
-    font-size: 40px;
+    bottom: 165px;
+    font-size: 35px;
   }
 }

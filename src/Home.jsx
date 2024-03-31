@@ -76,9 +76,11 @@ export function Home () {
               {clickControl.aboutMe && (
               <div className='myAboutMe'>
                 <h6>ABOUT ME</h6>
-                <p>Hi, my name is Orlando Santos, I have always found solace in art and design, harboring a deep passion for creating things that spark joy. While I initially pursued a career in architecture to nurture my design aspirations, I soon realized that it often meant navigating through city regulations and city/client paperwork. While still working I attempted to start a local business with a couple friends; I dedicated late nights to crafting logos and designing the website. Working on my layouts and designs gave me the creative satisfaction that was lacking at my job.<br /><br />
+                <p>
+                  Hi, my name is Orlando Santos. Since the inception of my architectural journey, I have been captivated by the technological    advancements that empower architects with innovative tools. This fascination led me to delve into the realm of software engineering, driven by a desire to understand the inner workings of these technologies.  <br /><br />
 
-                That led me to explore the world of software engineering, which I once viewed as a realm of ones and zeros. However, a deeper dive unveiled the art and science of creating digital worlds. I then enrolled in Actualize coding bootcamp, throwing me into the world of full-stack web development and equipping me with the skills to adapt swiftly to emerging technologies. Graduating from Actualize marked a significant milestone in my ongoing journey. I am eager to fuse my background, passion for design, and newfound coding expertise to create innovative digital solutions</p> 
+                  I then enrolled in Actualize coding bootcamp, throwing me into the world of full-stack web development and equipping me with the skills to adapt swiftly to emerging technologies. Taking this time to advance my knowledge in the software side I am ready to bring this new skillset and apply it to my already impressive skillset in Revit while learning new skills and applying them to improve not just myself but elevate my peers.
+                </p> 
               </div>)}
               {clickControl.projects && (
               <div className="myapps">

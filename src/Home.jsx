@@ -77,9 +77,14 @@ export function Home () {
               <div className='myAboutMe'>
                 <h6>ABOUT ME</h6>
                 <p>
-                  Hi, my name is Orlando Santos. Since the inception of my architectural journey, I have been captivated by the technological    advancements that empower architects with innovative tools. This fascination led me to delve into the realm of software engineering, driven by a desire to understand the inner workings of these technologies.  <br /><br />
+                  My name is Orlando Santos. Since the inception of my architectural journey, I have been captivated by the technological advancements that empower architects with innovative tools. This fascination propelled me to master all facets of Autodesk Revit and its complementary technologies. Eager to expand my expertise, I embarked on the journey of mastering Revit automation.
+                  <br /><br />
 
-                  I then enrolled in Actualize coding bootcamp, throwing me into the world of full-stack web development and equipping me with the skills to adapt swiftly to emerging technologies. Taking this time to advance my knowledge in the software side I am ready to bring this new skillset and apply it to my already impressive skillset in Revit while learning new skills and applying them to improve not just myself but elevate my peers.
+                  Enrolling in the Actualize coding bootcamp was a pivotal decision. Initially driven by personal ambition, I quickly realized the immense potential of integrating coding skills into the realm of Building Information Modeling (BIM). Since obtaining my certification, I have been fervently exploring Python, a versatile programming language renowned for its applications in Revit automation.
+
+                  <br /><br />
+
+                  Currently preparing for the ARE 5.0 exams, my career aspiration is to become a Data Center Architect.  By combining my proficiency in Revit with programming, I aspire to not only elevate my own capabilities but also empower my peers. I am poised and enthusiastic to embark on this transformative chapter in my professional journey.
                 </p> 
               </div>)}
               {clickControl.projects && (

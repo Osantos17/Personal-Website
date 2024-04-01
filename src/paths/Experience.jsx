@@ -8,9 +8,9 @@ export function Experience () {
           <h5 className="resumeHeader">SKILLS</h5>
           <div className="horizontalLine"></div>
           <div className="skillsBody">
-            <span className="skillsLine"><strong className="bodyHeaader">LANGUAGES: </strong>Javascript, HTML, CSS, Ruby</span>
+            <span className="skillsLine"><strong className="bodyHeaader">LANGUAGES: </strong>Javascript, Python, C#, HTML, CSS, Ruby</span>
             <br />
-            <span className="skillsLine"><strong className="bodyHeaader">FRAMEWORK/LIBRARIES: </strong>React, Bootstrap, Ruby on Rails</span>
+            <span className="skillsLine"><strong className="bodyHeaader">FRAMEWORK/LIBRARIES: </strong>React, .NET, Bootstrap, Ruby on Rails</span>
             <br />
             <span className="skillsLine"><strong className="bodyHeaader">DATABASE/TOOLS: </strong>Postgres, APIs, Git, GitHub</span>
           </div>  

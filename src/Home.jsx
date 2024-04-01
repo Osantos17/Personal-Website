@@ -66,7 +66,7 @@ export function Home () {
             <div className="selected ">
               <div className="indexHeader row align-items-start">
                 <button onClick={() => toggleOpen ("aboutMe")} className="index col-3 col-sm-3"><span>ABOUT ME</span></button>
-                <button onClick = {() => toggleOpen ("projects")} className="index projects col-3 col-sm-3"><span>PROJECTS</span></button>
+                <button onClick = {() => toggleOpen ("projects")} className="index projects col-3 col-sm-3"><span>APPS</span></button>
                 <button onClick={() => toggleOpen ("experience")} className="index experience col-3 col-sm-3"><span>EXPERIENCE</span></button>
                 <button onClick={() => toggleOpen ("interests")} className="index col-3 col-sm-3"><span>INTERESTS</span></button>
               </div>
@@ -97,10 +97,15 @@ export function Home () {
               {clickControl.experience && (
               <div className='myExperience'>
                 <h6>EXPERIENCE</h6>
-                <p>At Actualize Coding Bootcamp I underwent a transformative journey from a coding novice to an entry-level software developer. The curriculum, focused on full stack web development, employed technologies such as JavaScript, React, HTML, Ruby, Rails, CSS, SQL, and Git. This dynamic learning environment equipped me not only with specific technical skills but also instilled the ability to independently approach and master any software-related challenge.</p>
                 <p>
-                  My background in architecture has finely tuned my design prowess, cultivating spatial awareness and the craftsmanship of creating functional, aesthetically pleasing environments. This proficiency seamlessly aligns with the demands of software development, where the focus is on crafting intuitive and user-friendly digital interfaces.
+                  During my career as an Architect I have excelled in the BIM space, creating complex families applying templates and filters to improve Revit project development. My plan is now to take it even a step further and implement Revit automation in order to elevate my impact on projects.
+                </p>
+                <p>
+                  I started my career as a designer and immediatly took on the role of the Revit person in the office. I started creting office wide template views and a custom family library. After 2.5 years I moved onto to my next role, I was brought on to teach the design team Revit to create ready to use Revit models for production. During my time on the design team I worked hand and hand with the graphics team, prepping models for IFC export for renderings in 3D Max. After 2 years in that role I decided to transfer to the production department which allowed me to maximize my skill set. 
                 </p> 
+                <p>
+                  Once in production I took on the role of BIM Coordinator put in charge of creating and managing the Revit Family library, managing view templates, filters, stairs, rails and the go-to trouble shooter for anything Revit.
+                </p>
               </div>)}
               {clickControl.interests && (
               <div className="myinterests">

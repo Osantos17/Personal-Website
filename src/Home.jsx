@@ -110,13 +110,13 @@ export function Home () {
               {clickControl.interests && (
               <div className="myinterests">
                 <h6 className="projectName">SOUTHLINE</h6>
-                <p> Design in woodworking requires meticulous planning and the ability to envision the end product. This attention to detail finds its reflection in frontend coding, where developers craft user interfaces that elegantly merge visual appeal with practical functionality. Both woodworking and software engineering demand a harmonious blend of creativity and precision to yield a polished final product. The principles of thoughtful design and scrupulous execution resonate universally in these disciplines.
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi repellat temporibus laborum corporis hic, voluptates, consequuntur facere quia magnam labore tempore consequatur nisi sequi nemo. Ut nihil rerum laudantium temporibus.
                 </p>
                 <h6 className="projectName">HARBOR VIEW</h6>
-                <p> My experience in architecture significantly honed my design skills, instilling spatial awareness and the art of crafting functional, aesthetically pleasing spaces. Similarly, software development requires the creation of logical and user-friendly digital interfaces. In both domains
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae molestias aut, sed temporibus voluptates totam consectetur praesentium? Commodi perferendis accusantium sed, omnis dolor atque, porro eum, id minima dicta saepe?
                 </p>
                 <h6 className="projectName">MOFFETT TOWERS II</h6>
-                <p> All the architecture images featured represent projects in which I played an integral role. For allt the renderings, I modeled the buildings in a 3D program. I would then collaborate with our graphics team produce renderings the models for our clients.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum iste est esse? Esse, corrupti tenetur ex sequi quam eligendi eius tempora! Aliquam quibusdam distinctio, assumenda eligendi vero eius provident aut!</p>
               </div> )}
             </div>
             <div className="mySitesContainer">

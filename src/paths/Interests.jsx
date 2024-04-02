@@ -2,19 +2,19 @@ import './Interests.css'
 import styled from "styled-components";
 
 export function Interests() {
-  const WoodContent = styled.div`
+  const SouthlineContent = styled.div`
     height: 25vh;
     width: 90%;
     overflow-x: scroll;
   `;
 
-  const ArchContent = styled.div`
+  const HarborViewContent = styled.div`
     height: 25vh;
     width: 90%;
     overflow-x: scroll;
   `;
 
-  const SketchContent = styled.div`
+  const MT2Content = styled.div`
   height: 25vh;
   width: 90%;
   overflow-x: scroll;
@@ -22,47 +22,42 @@ export function Interests() {
 
   return (
     <div className="interestsContainer">
-      <div className="containerWood">
-        <WoodContent>
+      <div className="containerSouthline">
+        <SouthlineContent>
           <div className="imagesContainer">
-            <h3 className="imgCategory">WOODWORKING</h3>
-            <img className="images" src="/assets/Wood/crib.jpg" alt="crib" />
-            <img className="images" src="/assets/Wood/fire.jpg" alt="fire" />
-            <img className="images" src="/assets/Wood/coop.jpg" alt="coop" />
-            <img className="images" src="/assets/Wood/table.jpg" alt="table" />
-            <img className="images" src="/assets/Wood/wine.jpg" alt="wine" />
-            <img className="images" src="/assets/Wood/changing.jpg" alt="changing" />
-            <img className="images" src="/assets/Wood/shelf.jpg" alt="shelf" />
-            <img className="images" src="/assets/Wood/stool.jpg" alt="stool" />
+            {/* <h3 className="imgCategory">SOUTHLINE</h3> */}
+            <img className="images" src="/assets/Southline/SL-Cover.png" alt="Cover" />
+            <img className="images" src="/assets/Southline/SL-Site-Plan.png" alt="Site" />
+            <img className="images" src="/assets/Southline/SL-B1.png" alt="B1" />
+            <img className="images" src="/assets/Southline/SL-B1-2.png" alt="B1" />
+            <img className="images" src="/assets/Southline/SL-Night.png" alt="Night" />
           </div>
-        </WoodContent>
+        </SouthlineContent>
       </div>
-      <div className="containerArch"> 
-        <ArchContent>
+      <div className="containerHarborView"> 
+        <HarborViewContent>
           <div className="imagesContainer">
-            <h3 className="imgCategory">ARCHITECTURE</h3>
-            <img className="images" src="/assets/Architecture/1150.png" alt="1150" />
-            <img className="images" src="/assets/Architecture/851.png" alt="851" />
-            <img className="images" src="/assets/Architecture/harbor.png" alt="harbor" />
-            <img className="images" src="/assets/Architecture/skyline.png" alt="skyline" />
-            <img className="images" src="/assets/Architecture/ishinomaki.png" alt="ishinomaki" />
-            <img className="images" src="/assets/Architecture/hayward.jpg" alt="hayward" />
-            <img className="images" src="/assets/Architecture/hinto.png" alt="hinto" />
+            {/* <h3 className="imgCategory">HARBOR VIEW</h3> */}
+            <img className="images" src="/assets/HarborView/HV-Cover.png" alt="Cover" />
+            <img className="images" src="/assets/HarborView/HV-Info.png" alt="Info" />
+            <img className="images" src="/assets/HarborView/HV-Site.png" alt="Site" />
+            <img className="images" src="/assets/HarborView/HV-Amenities.png" alt="Amenities" />
+            <img className="images" src="/assets/HarborView/HV-Bird.png" alt="Bird" />
+            <img className="images" src="/assets/HarborView/HV-Roof.png" alt="Roof" />
           </div>
-        </ArchContent>
+        </HarborViewContent>
       </div>
-      <div className="containerSketch"> 
-        <SketchContent>
+      <div className="containerMT2"> 
+        <MT2Content>
           <div className="imagesContainer">
-            <h3 className="imgCategory">SKETCHES</h3>
-            <img className="images" src="/assets/Sketches/bowl.jpeg" alt="bowl" />
-            <img className="images" src="/assets/Sketches/invite.JPG" alt="invite" />
-            <img className="images" src="/assets/Sketches/vase.jpeg" alt="vase" />
-            <img className="images" src="/assets/Sketches/plant.jpg" alt="plant" />
-            <img className="images" src="/assets/Sketches/wave.jpg" alt="wave" />
-            <img className="images" src="/assets/Sketches/bayhouse.png" alt="bayhouse" />
+            {/* <h3 className="imgCategory">MOFFETT TOWERS</h3> */}
+            <img className="images" src="/assets/MT2/MT2-Cover.png" alt="Cover" />
+            <img className="images" src="/assets/MT2/MT2-Site.png" alt="Site" />
+            <img className="images" src="/assets/MT2/MT2-PSA.png" alt="PSA" />
+            <img className="images" src="/assets/MT2/MT2-B1.png" alt="B1" />
+            <img className="images" src="/assets/MT2/MT2-B3.jpeg" alt="B3" />
           </div>
-        </SketchContent>
+        </MT2Content>
       </div>  
     </div>
   );

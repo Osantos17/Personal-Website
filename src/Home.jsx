@@ -66,9 +66,9 @@ export function Home () {
             <div className="selected ">
               <div className="indexHeader row align-items-start">
                 <button onClick={() => toggleOpen ("aboutMe")} className="index col-3 col-sm-3"><span>ABOUT ME</span></button>
-                <button onClick = {() => toggleOpen ("projects")} className="index projects col-3 col-sm-3"><span>APPS</span></button>
+                <button onClick = {() => toggleOpen ("projects")} className="index projects col-3 col-sm-3"><span>WEB DESIGN</span></button>
                 <button onClick={() => toggleOpen ("experience")} className="index experience col-3 col-sm-3"><span>EXPERIENCE</span></button>
-                <button onClick={() => toggleOpen ("interests")} className="index col-3 col-sm-3"><span>INTERESTS</span></button>
+                <button onClick={() => toggleOpen ("interests")} className="index col-3 col-sm-3"><span>PROJECTS</span></button>
               </div>
             </div>
             <div className="homeLine"></div>
@@ -109,12 +109,13 @@ export function Home () {
               </div>)}
               {clickControl.interests && (
               <div className="myinterests">
-                <h6>WOODWORKING</h6>
+                <h6 className="projectName">SOUTHLINE</h6>
                 <p> Design in woodworking requires meticulous planning and the ability to envision the end product. This attention to detail finds its reflection in frontend coding, where developers craft user interfaces that elegantly merge visual appeal with practical functionality. Both woodworking and software engineering demand a harmonious blend of creativity and precision to yield a polished final product. The principles of thoughtful design and scrupulous execution resonate universally in these disciplines.
                 </p>
-                <h6>ARCHITECTURE</h6>
-                <p> My experience in architecture significantly honed my design skills, instilling spatial awareness and the art of crafting functional, aesthetically pleasing spaces. Similarly, software development requires the creation of logical and user-friendly digital interfaces. In both domains, professionals must engage in critical thinking to translate ideas into well-thought-out solutions. The synergy between meticulous architectural planning and software development yields intuitively designed spaces, whether in the physical or virtual realm.
+                <h6 className="projectName">HARBOR VIEW</h6>
+                <p> My experience in architecture significantly honed my design skills, instilling spatial awareness and the art of crafting functional, aesthetically pleasing spaces. Similarly, software development requires the creation of logical and user-friendly digital interfaces. In both domains
                 </p>
+                <h6 className="projectName">MOFFETT TOWERS II</h6>
                 <p> All the architecture images featured represent projects in which I played an integral role. For allt the renderings, I modeled the buildings in a 3D program. I would then collaborate with our graphics team produce renderings the models for our clients.</p>
               </div> )}
             </div>

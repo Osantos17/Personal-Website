@@ -134,7 +134,12 @@ p {
 h6 {
   font-size: 14px;
   color: white;
-  font-family: 'Lato-Regular';
+  font-family: 'Lato-Black', sans-serif;
+}
+
+.projectName {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .mySites {

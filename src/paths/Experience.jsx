@@ -8,6 +8,9 @@ export function Experience () {
           <h5 className="resumeHeader">SKILLS</h5>
           <div className="horizontalLine"></div>
           <div className="skillsBody">
+          <span className="skillsLine"><strong className="bodyHeaader">ARCHITECTURE: </strong>Revit Autodesk, Advanced Revit Families, BIM 360, AutoCAD, Ideate Explorer, PyRevit, Clarity, NavisWorks, Adobe Photoshop, Adobe InDesign, Blue-beam, Microsoft Suite</span>
+            <br />
+            <br />
             <span className="skillsLine"><strong className="bodyHeaader">LANGUAGES: </strong>Javascript, Python, C#, HTML, CSS, Ruby</span>
             <br />
             <span className="skillsLine"><strong className="bodyHeaader">FRAMEWORK/LIBRARIES: </strong>React, .NET, Bootstrap, Ruby on Rails</span>
@@ -57,10 +60,15 @@ export function Experience () {
             </div>  
             <div className="DES">
               <div className="desDetails">
-                - Produced 3D models for office wide use< br />
-                - Lead Revit instructor for 150 person office< br />
-                - Managed cloud models/worksharing, collaboration/data management products< br />
-                - Guide team to create and complete design and construction documents< br /> 
+                - Produced and QC Revit models from design/consultants for productions use up to LOD 350< br />
+                - Created/managed Revit family library for Architecture, Structural and Interior departments< br />
+                - Head of QA / QC regarding Families, Templates and Plug-ins< br />
+                - Update As-Builts into Revit, from blueprints, autocad, sketchup< br />
+                - Present monthly Revit classes for 150 person office on a variety of topics< br />
+                - Managed BIM 360 cloud models/worksharing, collaboration/data management for DES and consultants< br />
+                - Troubleshoot and Audit models for in office and consultants< br />
+                - Campus / Model Coordination with MEP and Civil consultants< br /> 
+                - MEP Clash Detection via Navisworks< br /> 
               </div>
               <div className="designer row">   
                 <div className="bodyHeaader2 col-auto me-auto">

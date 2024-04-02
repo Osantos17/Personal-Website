@@ -16,7 +16,7 @@ export function AboutMe () {
             <img className="profilePic" src="/assets/Profile-white.jpg" alt="profile pic" />
           </div>
           <h2 className="name">ORLANDO</h2>
-          <h3 className="titles">DESIGNER / DEVELOPER / WOODWORKER</h3>
+          <h3 className="titles">BIM / DESIGNER / DEVELOPER</h3>
         </div>
         <div className="logoContainer">
           <div className="written">

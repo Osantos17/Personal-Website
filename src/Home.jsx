@@ -98,25 +98,29 @@ export function Home () {
               <div className='myExperience'>
                 <h6>EXPERIENCE</h6>
                 <p>
-                  Through out my career as an Architect I have excelled in the BIM space, creating complex families applying templates and filters to improve Revit project development. My plan is now to take it even a step further and implement Revit automation in order to elevate my impact on projects.
+                  Throughout my tenure as an Architect, I have excelled in the BIM space, adeptly crafting complex families, applying templates, and filters to streamline Revit project development. Now, I am poised to take it even a step further and implement Revit automation, enhancing my impact on project outcomes.
                 </p>
                 <p>
-                  I started my career as a designer and immediatly took on the role of the Revit person in the office. I started creting office wide template views and a custom family library. After 2.5 years I moved onto to my next role, I was brought on to teach the design team Revit to create ready to use Revit models for production. During my time on the design team I worked hand and hand with the graphics team, prepping models for IFC export for renderings in 3D Max. After 2 years in that role I decided to transfer to the production department which allowed me to maximize my skill set. 
+                  Embarking on my career journey as a designer, I swiftly assumed the mantle of the office's go-to Revit expert. I started creating office-wide template views and curated a bespoke family library, laying the foundation for efficient project workflows. Transitioning roles after 2.5 years, I undertook the responsibility of instructing the design team in Revit, equipping them with the skills to generate production-ready models. Collaborating closely with the graphics team, I facilitated IFC exports for 3D Max renderings, refining our visual presentation capabilities. With a transition to the production department, I embraced the role of BIM Coordinator, overseeing the management of the Revit Family library, view templates, and filters. From steering the modeling strategy for large-scale projects to serving as the go-to troubleshooter, I thrived in every facet of Revit utilization.
                 </p> 
                 <p>
-                  Once in production I took on the role of BIM Coordinator put in charge of creating and managing the Revit Family library, managing view templates, filters, stairs, rails and the go-to trouble shooter for anything Revit.
+                  Now I am looking forward to taking another step in expertise in Revit and applying automation through programming. By taking the experience I gained from my completion of the Actualize Coding Bootcamp, I am excited to begin applying my new skillset. I am currently looking for a new role that shares my beliefs in the pursuit of technological innovation.
                 </p>
               </div>)}
               {clickControl.interests && (
               <div className="myinterests">
                 <h6 className="projectName">SOUTHLINE</h6>
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi repellat temporibus laborum corporis hic, voluptates, consequuntur facere quia magnam labore tempore consequatur nisi sequi nemo. Ut nihil rerum laudantium temporibus.
+                <p> 
+                  Having six 6-7 Story Office/Tech/Life Science buildings, 3 garages, and an amenities building. Phase 1 only consisted of two buildings, amenities, and a parking garage. While coordinating phase 1, we still needed to consider the future phases. For this project, I set up project and site coordinates, the modeling approach for the office buildings, loading/maintaining all families, and many other Revit duties. Throughout the lifespan of this project, I would spend most of my time in BIM 360 coordinating uploads and consumption, folder structure, and permissions.
                 </p>
                 <h6 className="projectName">HARBOR VIEW</h6>
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae molestias aut, sed temporibus voluptates totam consectetur praesentium? Commodi perferendis accusantium sed, omnis dolor atque, porro eum, id minima dicta saepe?
+                <p> 
+                  This site contains three 6-7 story buildings, a garage, and an amenities building. I took on the usual BIM tasks of setting up the site coordinates and coordinating that with consultants, BIM 360 set up, and selecting teams for each structure. The design of these buildings had a lot of curvature compared to typical buildings, so a lot of my time for this campus was spent ensuring accuracy and assisting the teams. A highlight of mine is creating an accurate 3D exterior pattern which consisted of 4 patterns, 3 colors on a curved surface; I managed to achieve this with a railing. 
                 </p>
                 <h6 className="projectName">MOFFETT TOWERS II</h6>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum iste est esse? Esse, corrupti tenetur ex sequi quam eligendi eius tempora! Aliquam quibusdam distinctio, assumenda eligendi vero eius provident aut!</p>
+                <p> 
+                  Five 8-story buildings, three garages, and a single amenities reside on this site. For this project, I coordinated the garages and a hotel that was unfortunately put on permanent hold at 95% CD. This was prior to BIM 360, so we used plug-ins to clean our models and coordinate and using Box as our folder structure to coordinate with our consultants. 
+                </p>
               </div> )}
             </div>
             <div className="mySitesContainer">

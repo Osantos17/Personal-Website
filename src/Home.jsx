@@ -84,7 +84,7 @@ export function Home () {
 
                   <br /><br />
 
-                  Currently preparing for the ARE 5.0 exams, my career aspiration is to become a Data Center Architect. By combining my proficiency in Revit with programming, I aspire to not only elevate my own capabilities but also empower my peers. I am poised and enthusiastic to embark on this transformative chapter in my professional journey.
+                  Currently preparing for the ARE 5.0 exams, my career aspiration is to become a Data Center Architect. By combining my proficiency in Revit with programming, I aspire to not only elevate my own capabilities but also empower my peers. I am poised and enthusiastic to embark on this new chapter in my professional journey.
                 </p> 
               </div>)}
               {clickControl.projects && (

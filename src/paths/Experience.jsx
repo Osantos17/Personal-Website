@@ -1,9 +1,18 @@
 import "./Experience.css"
+import styled from "styled-components";
 
 export function Experience () {
+
+  const Experience = styled.div`
+    height: 80vh;
+    overflow-y: scroll;
+  `;
+
+
   return(
     <div className="experienceContainer">
       <div className="experiencePage">
+        <Experience>
         <div className="skills ">
           <h5 className="resumeHeader">SKILLS</h5>
           <div className="horizontalLine"></div>
@@ -101,6 +110,7 @@ export function Experience () {
             </div>  
           </div>
         </div>
+        </Experience>
       </div>  
     </div>
   )
